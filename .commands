@@ -1,0 +1,7 @@
+php artisan migrate --path=database/migrations/2024_03_12_150024_create_log_prints_table.php
+php artisan migrate --path=database/migrations/2024_03_14_095709_add_etat_to_deposits.php
+php artisan migrate --path=database/migrations/2024_03_14_113112_add_laveur_to_deposits.php
+php artisan migrate --path=database/migrations/2024_03_14_113456_add_classeur_to_deposits.php
+php artisan db:seed --class=NewRoleSeeder
+php artisan migrate --path=database/migrations/2024_03_18_123447_create_in_outs_table.php
+php artisan migrate --path=database/migrations/2024_03_20_171817_add_agency_id_to_inout.php
